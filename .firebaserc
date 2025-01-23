@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "ai-image-generator-3be8e",
+    "staging": "ai-image-generator-3be8e"
+  },
+  "targets": {},
+  "etags": {}
+}

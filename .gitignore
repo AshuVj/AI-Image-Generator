@@ -1,0 +1,128 @@
+# General
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.lock
+*.swp
+*.bak
+*.orig
+*.tmp
+*.temp
+*.DS_Store
+Thumbs.db
+*.idea
+*.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Build Output
+build/
+dist/
+out/
+bin/
+target/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+firebase-config.js
+# React specific
+coverage/
+.nyc_output/
+
+# IDE specific
+*.iml
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Editor temp files
+*.bak
+*.orig
+*.tmp
+
+# Package manager files
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# OS generated files
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+Desktop.ini
+
+# CI/CD
+.travis.yml
+appveyor.yml
+.gitlab-ci.yml
+circle.yml
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.history/
+
+# Other
+.cache/
+.next/
+.nuxt/
+.cache-loader/
+.webpack/
+.parcel-cache/
+
+# Docker
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate*
+
+# Serverless Framework
+.serverless/
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# AWS Amplify
+.amplify/
+amplify/#current-cloud-backend/
+amplify/.config/
+amplify/backend/
+amplify/mock-data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
